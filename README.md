@@ -8,7 +8,7 @@ Azure setup and iOS:
 https://blog.verslu.is/xamarin/xamarin-forms-xamarin/push-notifications-with-xamarin-ios/
 
 Android:
-Coming...
+https://blog.verslu.is/xamarin/xamarin-forms-xamarin/push-notifications-with-xamarin-android/
 
 Windows Phone:
 Coming...
