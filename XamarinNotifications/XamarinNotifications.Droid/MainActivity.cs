@@ -1,11 +1,8 @@
-﻿using System;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
+using Gcm.Client;
+using XamarinNotifications.Droid.PlatformSpecifics;
 
 namespace XamarinNotifications.Droid
 {
@@ -17,8 +14,13 @@ namespace XamarinNotifications.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            // Check to ensure everything's setup right for push
+            GcmClient.CheckDevice(this);
+            GcmClient.CheckManifest(this);
+            GcmClient.Register(this, NotificationsBroadcastReceiver.SenderIDs);
+
             LoadApplication(new App());
         }
     }
 }
-

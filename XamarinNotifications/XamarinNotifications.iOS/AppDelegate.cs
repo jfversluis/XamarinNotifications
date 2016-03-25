@@ -45,7 +45,7 @@ namespace XamarinNotifications.iOS
             // You need the Settings plugin for this!
             Settings.DeviceToken = token;
 
-            // TODO add you own access key
+            // TODO add your own access key
             var hub = new SBNotificationHub("Endpoint=sb://xamarinnotifications-ns.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=<your key here>",
                 "xamarinnotifications");
 
