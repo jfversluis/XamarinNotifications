@@ -11,7 +11,7 @@ Android:
 https://blog.verslu.is/xamarin/xamarin-forms-xamarin/push-notifications-with-xamarin-android/
 
 Windows Phone:
-Coming...
+https://blog.verslu.is/xamarin/xamarin-forms-xamarin/push-notificatio…in-windows-phone/
 
 Server:
 Coming...
